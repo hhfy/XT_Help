@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CC89E31C82D89700CDEECB /* XT_HelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC89E21C82D89700CDEECB /* XT_HelpTests.m */; };
+		B0CC89EE1C82D89700CDEECB /* XT_HelpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CC89ED1C82D89700CDEECB /* XT_HelpUITests.m */; };
+		B0CE53661C8B2CFC0066AF42 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53281C8B2CFC0066AF42 /* CycleScrollView.m */; };
+		B0CE53671C8B2CFC0066AF42 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE532A1C8B2CFC0066AF42 /* NSTimer+Addition.m */; };
+		B0CE53681C8B2CFC0066AF42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE532C1C8B2CFC0066AF42 /* AppDelegate.m */; };
+		B0CE53691C8B2CFC0066AF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CE532D1C8B2CFC0066AF42 /* Assets.xcassets */; };
+		B0CE536A1C8B2CFC0066AF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE532F1C8B2CFC0066AF42 /* LaunchScreen.storyboard */; };
+		B0CE536B1C8B2CFC0066AF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE53311C8B2CFC0066AF42 /* Main.storyboard */; };
+		B0CE536C1C8B2CFC0066AF42 /* IBDesiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53351C8B2CFC0066AF42 /* IBDesiLabel.m */; };
+		B0CE536D1C8B2CFC0066AF42 /* IBDesiView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53371C8B2CFC0066AF42 /* IBDesiView.m */; };
+		B0CE536E1C8B2CFC0066AF42 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0CE53381C8B2CFC0066AF42 /* fontello.ttf */; };
+		B0CE536F1C8B2CFC0066AF42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0CE53391C8B2CFC0066AF42 /* Info.plist */; };
+		B0CE53701C8B2CFC0066AF42 /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE533D1C8B2CFC0066AF42 /* HomeCollectionViewController.m */; };
+		B0CE53711C8B2CFC0066AF42 /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE533F1C8B2CFC0066AF42 /* KKNavigationController.m */; };
+		B0CE53721C8B2CFC0066AF42 /* MyCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53411C8B2CFC0066AF42 /* MyCollectionReusableView.m */; };
+		B0CE53731C8B2CFC0066AF42 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53431C8B2CFC0066AF42 /* MyCollectionViewCell.m */; };
+		B0CE53741C8B2CFC0066AF42 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53461C8B2CFC0066AF42 /* LeftViewController.m */; };
+		B0CE53751C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53511C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.m */; };
+		B0CE53761C8B2CFC0066AF42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53541C8B2CFC0066AF42 /* main.m */; };
+		B0CE53771C8B2CFC0066AF42 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53571C8B2CFC0066AF42 /* MMDrawerBarButtonItem.m */; };
+		B0CE53781C8B2CFC0066AF42 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE535A1C8B2CFC0066AF42 /* MMDrawerController.m */; };
+		B0CE53791C8B2CFC0066AF42 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE535C1C8B2CFC0066AF42 /* MMDrawerVisualState.m */; };
+		B0CE537A1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE535E1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.m */; };
+		B0CE537B1C8B2CFC0066AF42 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53601C8B2CFC0066AF42 /* UIViewController+MMDrawerController.m */; };
+		B0CE537C1C8B2CFC0066AF42 /* PublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53621C8B2CFC0066AF42 /* PublicMethod.m */; };
+		B0CE537D1C8B2CFC0066AF42 /* XT_Help.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53641C8B2CFC0066AF42 /* XT_Help.xcdatamodeld */; };
+		B0CE537E1C8B2CFC0066AF42 /* YViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE53651C8B2CFC0066AF42 /* YViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CC89DF1C82D89700CDEECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CC89BA1C82D89000CDEECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CC89C11C82D89000CDEECB;
+			remoteInfo = XT_Help;
+		};
+		B0CC89EA1C82D89700CDEECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CC89BA1C82D89000CDEECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CC89C11C82D89000CDEECB;
+			remoteInfo = XT_Help;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0CC89C21C82D89000CDEECB /* XTHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC89DE1C82D89700CDEECB /* XTHelp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHelp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC89E21C82D89700CDEECB /* XT_HelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XT_HelpTests.m; sourceTree = "<group>"; };
+		B0CC89E41C82D89700CDEECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC89E91C82D89700CDEECB /* XTHelp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHelp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CC89ED1C82D89700CDEECB /* XT_HelpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XT_HelpUITests.m; sourceTree = "<group>"; };
+		B0CC89EF1C82D89700CDEECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE53271C8B2CFC0066AF42 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		B0CE53281C8B2CFC0066AF42 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		B0CE53291C8B2CFC0066AF42 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		B0CE532A1C8B2CFC0066AF42 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		B0CE532B1C8B2CFC0066AF42 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XTHelp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B0CE532C1C8B2CFC0066AF42 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XTHelp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B0CE532D1C8B2CFC0066AF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XTHelp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B0CE53301C8B2CFC0066AF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CE53321C8B2CFC0066AF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		B0CE53341C8B2CFC0066AF42 /* IBDesiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDesiLabel.h; sourceTree = "<group>"; };
+		B0CE53351C8B2CFC0066AF42 /* IBDesiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDesiLabel.m; sourceTree = "<group>"; };
+		B0CE53361C8B2CFC0066AF42 /* IBDesiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDesiView.h; sourceTree = "<group>"; };
+		B0CE53371C8B2CFC0066AF42 /* IBDesiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDesiView.m; sourceTree = "<group>"; };
+		B0CE53381C8B2CFC0066AF42 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fontello.ttf; path = XTHelp/fontello.ttf; sourceTree = SOURCE_ROOT; };
+		B0CE53391C8B2CFC0066AF42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = XTHelp/Info.plist; sourceTree = SOURCE_ROOT; };
+		B0CE533C1C8B2CFC0066AF42 /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		B0CE533D1C8B2CFC0066AF42 /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		B0CE533E1C8B2CFC0066AF42 /* KKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNavigationController.h; sourceTree = "<group>"; };
+		B0CE533F1C8B2CFC0066AF42 /* KKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNavigationController.m; sourceTree = "<group>"; };
+		B0CE53401C8B2CFC0066AF42 /* MyCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionReusableView.h; sourceTree = "<group>"; };
+		B0CE53411C8B2CFC0066AF42 /* MyCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionReusableView.m; sourceTree = "<group>"; };
+		B0CE53421C8B2CFC0066AF42 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		B0CE53431C8B2CFC0066AF42 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		B0CE53451C8B2CFC0066AF42 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		B0CE53461C8B2CFC0066AF42 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		B0CE53501C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodSugarMonitoringTableVC.h; sourceTree = "<group>"; };
+		B0CE53511C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodSugarMonitoringTableVC.m; sourceTree = "<group>"; };
+		B0CE53541C8B2CFC0066AF42 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = XTHelp/main.m; sourceTree = SOURCE_ROOT; };
+		B0CE53561C8B2CFC0066AF42 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		B0CE53571C8B2CFC0066AF42 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		B0CE53581C8B2CFC0066AF42 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		B0CE53591C8B2CFC0066AF42 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		B0CE535A1C8B2CFC0066AF42 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		B0CE535B1C8B2CFC0066AF42 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		B0CE535C1C8B2CFC0066AF42 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		B0CE535D1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		B0CE535E1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		B0CE535F1C8B2CFC0066AF42 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		B0CE53601C8B2CFC0066AF42 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		B0CE53611C8B2CFC0066AF42 /* PublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicMethod.h; path = XTHelp/PublicMethod.h; sourceTree = SOURCE_ROOT; };
+		B0CE53621C8B2CFC0066AF42 /* PublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicMethod.m; path = XTHelp/PublicMethod.m; sourceTree = SOURCE_ROOT; };
+		B0CE53631C8B2CFC0066AF42 /* XT_Help-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XT_Help-Bridging-Header.h"; path = "XTHelp/XT_Help-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B0CE53651C8B2CFC0066AF42 /* YViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YViewController.swift; path = XTHelp/YViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CC89BF1C82D89000CDEECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89DB1C82D89700CDEECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89E61C82D89700CDEECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CC89B91C82D89000CDEECB = {
+			isa = PBXGroup;
+			children = (
+				B0CC89C41C82D89100CDEECB /* XTHelp */,
+				B0CC89E11C82D89700CDEECB /* XT_HelpTests */,
+				B0CC89EC1C82D89700CDEECB /* XT_HelpUITests */,
+				B0CC89C31C82D89000CDEECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CC89C31C82D89000CDEECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC89C21C82D89000CDEECB /* XTHelp.app */,
+				B0CC89DE1C82D89700CDEECB /* XTHelp.xctest */,
+				B0CC89E91C82D89700CDEECB /* XTHelp.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CC89C41C82D89100CDEECB /* XTHelp */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53261C8B2CFC0066AF42 /* 滑动视图控制 */,
+				B0CE532B1C8B2CFC0066AF42 /* AppDelegate.h */,
+				B0CE532C1C8B2CFC0066AF42 /* AppDelegate.m */,
+				B0CE532D1C8B2CFC0066AF42 /* Assets.xcassets */,
+				B0CE532E1C8B2CFC0066AF42 /* Base.lproj */,
+				B0CE53331C8B2CFC0066AF42 /* Common */,
+				B0CE53381C8B2CFC0066AF42 /* fontello.ttf */,
+				B0CE53391C8B2CFC0066AF42 /* Info.plist */,
+				B0CE533A1C8B2CFC0066AF42 /* Main */,
+				B0CE53541C8B2CFC0066AF42 /* main.m */,
+				B0CE53551C8B2CFC0066AF42 /* MMDrawerController */,
+				B0CE53611C8B2CFC0066AF42 /* PublicMethod.h */,
+				B0CE53621C8B2CFC0066AF42 /* PublicMethod.m */,
+				B0CE53631C8B2CFC0066AF42 /* XT_Help-Bridging-Header.h */,
+				B0CE53641C8B2CFC0066AF42 /* XT_Help.xcdatamodeld */,
+				B0CE53651C8B2CFC0066AF42 /* YViewController.swift */,
+			);
+			name = XTHelp;
+			path = XT_Help;
+			sourceTree = "<group>";
+		};
+		B0CC89E11C82D89700CDEECB /* XT_HelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC89E21C82D89700CDEECB /* XT_HelpTests.m */,
+				B0CC89E41C82D89700CDEECB /* Info.plist */,
+			);
+			path = XT_HelpTests;
+			sourceTree = "<group>";
+		};
+		B0CC89EC1C82D89700CDEECB /* XT_HelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC89ED1C82D89700CDEECB /* XT_HelpUITests.m */,
+				B0CC89EF1C82D89700CDEECB /* Info.plist */,
+			);
+			path = XT_HelpUITests;
+			sourceTree = "<group>";
+		};
+		B0CE53261C8B2CFC0066AF42 /* 滑动视图控制 */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53271C8B2CFC0066AF42 /* CycleScrollView.h */,
+				B0CE53281C8B2CFC0066AF42 /* CycleScrollView.m */,
+				B0CE53291C8B2CFC0066AF42 /* NSTimer+Addition.h */,
+				B0CE532A1C8B2CFC0066AF42 /* NSTimer+Addition.m */,
+			);
+			name = "滑动视图控制";
+			path = "XTHelp/滑动视图控制";
+			sourceTree = SOURCE_ROOT;
+		};
+		B0CE532E1C8B2CFC0066AF42 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE532F1C8B2CFC0066AF42 /* LaunchScreen.storyboard */,
+				B0CE53311C8B2CFC0066AF42 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = XTHelp/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0CE53331C8B2CFC0066AF42 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53341C8B2CFC0066AF42 /* IBDesiLabel.h */,
+				B0CE53351C8B2CFC0066AF42 /* IBDesiLabel.m */,
+				B0CE53361C8B2CFC0066AF42 /* IBDesiView.h */,
+				B0CE53371C8B2CFC0066AF42 /* IBDesiView.m */,
+			);
+			name = Common;
+			path = XTHelp/Common;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0CE533A1C8B2CFC0066AF42 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE533B1C8B2CFC0066AF42 /* Home */,
+				B0CE53441C8B2CFC0066AF42 /* 个人资料 */,
+				B0CE53481C8B2CFC0066AF42 /* 咨询分享 */,
+				B0CE53491C8B2CFC0066AF42 /* 指标管理 */,
+				B0CE534A1C8B2CFC0066AF42 /* 用药管理 */,
+				B0CE534B1C8B2CFC0066AF42 /* 知识教育 */,
+				B0CE534C1C8B2CFC0066AF42 /* 系统设置 */,
+				B0CE534D1C8B2CFC0066AF42 /* 综合报告 */,
+				B0CE534E1C8B2CFC0066AF42 /* 自我评估 */,
+				B0CE534F1C8B2CFC0066AF42 /* 血糖监测 */,
+				B0CE53521C8B2CFC0066AF42 /* 运动消耗 */,
+				B0CE53531C8B2CFC0066AF42 /* 饮食健康 */,
+			);
+			name = Main;
+			path = XTHelp/Main;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0CE533B1C8B2CFC0066AF42 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE533C1C8B2CFC0066AF42 /* HomeCollectionViewController.h */,
+				B0CE533D1C8B2CFC0066AF42 /* HomeCollectionViewController.m */,
+				B0CE533E1C8B2CFC0066AF42 /* KKNavigationController.h */,
+				B0CE533F1C8B2CFC0066AF42 /* KKNavigationController.m */,
+				B0CE53401C8B2CFC0066AF42 /* MyCollectionReusableView.h */,
+				B0CE53411C8B2CFC0066AF42 /* MyCollectionReusableView.m */,
+				B0CE53421C8B2CFC0066AF42 /* MyCollectionViewCell.h */,
+				B0CE53431C8B2CFC0066AF42 /* MyCollectionViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0CE53441C8B2CFC0066AF42 /* 个人资料 */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53451C8B2CFC0066AF42 /* LeftViewController.h */,
+				B0CE53461C8B2CFC0066AF42 /* LeftViewController.m */,
+				B0CE53471C8B2CFC0066AF42 /* Me */,
+			);
+			path = "个人资料";
+			sourceTree = "<group>";
+		};
+		B0CE53471C8B2CFC0066AF42 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B0CE53481C8B2CFC0066AF42 /* 咨询分享 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "咨询分享";
+			sourceTree = "<group>";
+		};
+		B0CE53491C8B2CFC0066AF42 /* 指标管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "指标管理";
+			sourceTree = "<group>";
+		};
+		B0CE534A1C8B2CFC0066AF42 /* 用药管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "用药管理";
+			sourceTree = "<group>";
+		};
+		B0CE534B1C8B2CFC0066AF42 /* 知识教育 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "知识教育";
+			sourceTree = "<group>";
+		};
+		B0CE534C1C8B2CFC0066AF42 /* 系统设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "系统设置";
+			sourceTree = "<group>";
+		};
+		B0CE534D1C8B2CFC0066AF42 /* 综合报告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "综合报告";
+			sourceTree = "<group>";
+		};
+		B0CE534E1C8B2CFC0066AF42 /* 自我评估 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自我评估";
+			sourceTree = "<group>";
+		};
+		B0CE534F1C8B2CFC0066AF42 /* 血糖监测 */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53501C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.h */,
+				B0CE53511C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.m */,
+			);
+			path = "血糖监测";
+			sourceTree = "<group>";
+		};
+		B0CE53521C8B2CFC0066AF42 /* 运动消耗 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "运动消耗";
+			sourceTree = "<group>";
+		};
+		B0CE53531C8B2CFC0066AF42 /* 饮食健康 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "饮食健康";
+			sourceTree = "<group>";
+		};
+		B0CE53551C8B2CFC0066AF42 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE53561C8B2CFC0066AF42 /* MMDrawerBarButtonItem.h */,
+				B0CE53571C8B2CFC0066AF42 /* MMDrawerBarButtonItem.m */,
+				B0CE53581C8B2CFC0066AF42 /* MMDrawerController+Subclass.h */,
+				B0CE53591C8B2CFC0066AF42 /* MMDrawerController.h */,
+				B0CE535A1C8B2CFC0066AF42 /* MMDrawerController.m */,
+				B0CE535B1C8B2CFC0066AF42 /* MMDrawerVisualState.h */,
+				B0CE535C1C8B2CFC0066AF42 /* MMDrawerVisualState.m */,
+				B0CE535D1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.h */,
+				B0CE535E1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.m */,
+				B0CE535F1C8B2CFC0066AF42 /* UIViewController+MMDrawerController.h */,
+				B0CE53601C8B2CFC0066AF42 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawerController;
+			path = XTHelp/MMDrawerController;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CC89C11C82D89000CDEECB /* XTHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC89F21C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelp" */;
+			buildPhases = (
+				B0CC89BE1C82D89000CDEECB /* Sources */,
+				B0CC89BF1C82D89000CDEECB /* Frameworks */,
+				B0CC89C01C82D89000CDEECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTHelp;
+			productName = XT_Help;
+			productReference = B0CC89C21C82D89000CDEECB /* XTHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CC89DD1C82D89700CDEECB /* XTHelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC89F51C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelpTests" */;
+			buildPhases = (
+				B0CC89DA1C82D89700CDEECB /* Sources */,
+				B0CC89DB1C82D89700CDEECB /* Frameworks */,
+				B0CC89DC1C82D89700CDEECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CC89E01C82D89700CDEECB /* PBXTargetDependency */,
+			);
+			name = XTHelpTests;
+			productName = XT_HelpTests;
+			productReference = B0CC89DE1C82D89700CDEECB /* XTHelp.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CC89E81C82D89700CDEECB /* XTHelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CC89F81C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelpUITests" */;
+			buildPhases = (
+				B0CC89E51C82D89700CDEECB /* Sources */,
+				B0CC89E61C82D89700CDEECB /* Frameworks */,
+				B0CC89E71C82D89700CDEECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CC89EB1C82D89700CDEECB /* PBXTargetDependency */,
+			);
+			name = XTHelpUITests;
+			productName = XT_HelpUITests;
+			productReference = B0CC89E91C82D89700CDEECB /* XTHelp.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CC89BA1C82D89000CDEECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "徐淼斌";
+				TargetAttributes = {
+					B0CC89C11C82D89000CDEECB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B0CC89DD1C82D89700CDEECB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B0CC89C11C82D89000CDEECB;
+					};
+					B0CC89E81C82D89700CDEECB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B0CC89C11C82D89000CDEECB;
+					};
+				};
+			};
+			buildConfigurationList = B0CC89BD1C82D89000CDEECB /* Build configuration list for PBXProject "XTHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CC89B91C82D89000CDEECB;
+			productRefGroup = B0CC89C31C82D89000CDEECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CC89C11C82D89000CDEECB /* XTHelp */,
+				B0CC89DD1C82D89700CDEECB /* XTHelpTests */,
+				B0CC89E81C82D89700CDEECB /* XTHelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CC89C01C82D89000CDEECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE536B1C8B2CFC0066AF42 /* Main.storyboard in Resources */,
+				B0CE536F1C8B2CFC0066AF42 /* Info.plist in Resources */,
+				B0CE536E1C8B2CFC0066AF42 /* fontello.ttf in Resources */,
+				B0CE536A1C8B2CFC0066AF42 /* LaunchScreen.storyboard in Resources */,
+				B0CE53691C8B2CFC0066AF42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89DC1C82D89700CDEECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89E71C82D89700CDEECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CC89BE1C82D89000CDEECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE537E1C8B2CFC0066AF42 /* YViewController.swift in Sources */,
+				B0CE536D1C8B2CFC0066AF42 /* IBDesiView.m in Sources */,
+				B0CE537B1C8B2CFC0066AF42 /* UIViewController+MMDrawerController.m in Sources */,
+				B0CE537A1C8B2CFC0066AF42 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				B0CE536C1C8B2CFC0066AF42 /* IBDesiLabel.m in Sources */,
+				B0CE53681C8B2CFC0066AF42 /* AppDelegate.m in Sources */,
+				B0CE53761C8B2CFC0066AF42 /* main.m in Sources */,
+				B0CE53751C8B2CFC0066AF42 /* BloodSugarMonitoringTableVC.m in Sources */,
+				B0CE53711C8B2CFC0066AF42 /* KKNavigationController.m in Sources */,
+				B0CE53701C8B2CFC0066AF42 /* HomeCollectionViewController.m in Sources */,
+				B0CE53721C8B2CFC0066AF42 /* MyCollectionReusableView.m in Sources */,
+				B0CE53731C8B2CFC0066AF42 /* MyCollectionViewCell.m in Sources */,
+				B0CE53791C8B2CFC0066AF42 /* MMDrawerVisualState.m in Sources */,
+				B0CE537C1C8B2CFC0066AF42 /* PublicMethod.m in Sources */,
+				B0CE53741C8B2CFC0066AF42 /* LeftViewController.m in Sources */,
+				B0CE53771C8B2CFC0066AF42 /* MMDrawerBarButtonItem.m in Sources */,
+				B0CE53661C8B2CFC0066AF42 /* CycleScrollView.m in Sources */,
+				B0CE53671C8B2CFC0066AF42 /* NSTimer+Addition.m in Sources */,
+				B0CE537D1C8B2CFC0066AF42 /* XT_Help.xcdatamodeld in Sources */,
+				B0CE53781C8B2CFC0066AF42 /* MMDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89DA1C82D89700CDEECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC89E31C82D89700CDEECB /* XT_HelpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CC89E51C82D89700CDEECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC89EE1C82D89700CDEECB /* XT_HelpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CC89E01C82D89700CDEECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CC89C11C82D89000CDEECB /* XTHelp */;
+			targetProxy = B0CC89DF1C82D89700CDEECB /* PBXContainerItemProxy */;
+		};
+		B0CC89EB1C82D89700CDEECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CC89C11C82D89000CDEECB /* XTHelp */;
+			targetProxy = B0CC89EA1C82D89700CDEECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0CE532F1C8B2CFC0066AF42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE53301C8B2CFC0066AF42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CE53311C8B2CFC0066AF42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE53321C8B2CFC0066AF42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CC89F01C82D89700CDEECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CC89F11C82D89700CDEECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CC89F31C82D89700CDEECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = XT_Help/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xmb;
+				PRODUCT_NAME = XTHelp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XT_Help/XTHelp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "XT_Help-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0CC89F41C82D89700CDEECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = XT_Help/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xmb;
+				PRODUCT_NAME = XTHelp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XT_Help/XTHelp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "XT_Help-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B0CC89F61C82D89700CDEECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XT_HelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmb.XT-HelpTests";
+				PRODUCT_NAME = XTHelp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHelp.app/XTHelp";
+			};
+			name = Debug;
+		};
+		B0CC89F71C82D89700CDEECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XT_HelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmb.XT-HelpTests";
+				PRODUCT_NAME = XTHelp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHelp.app/XTHelp";
+			};
+			name = Release;
+		};
+		B0CC89F91C82D89700CDEECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XT_HelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmb.XT-HelpUITests";
+				PRODUCT_NAME = XTHelp;
+				TEST_TARGET_NAME = XT_Help;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0CC89FA1C82D89700CDEECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XT_HelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xmb.XT-HelpUITests";
+				PRODUCT_NAME = XTHelp;
+				TEST_TARGET_NAME = XT_Help;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CC89BD1C82D89000CDEECB /* Build configuration list for PBXProject "XTHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC89F01C82D89700CDEECB /* Debug */,
+				B0CC89F11C82D89700CDEECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC89F21C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC89F31C82D89700CDEECB /* Debug */,
+				B0CC89F41C82D89700CDEECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC89F51C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC89F61C82D89700CDEECB /* Debug */,
+				B0CC89F71C82D89700CDEECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CC89F81C82D89700CDEECB /* Build configuration list for PBXNativeTarget "XTHelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CC89F91C82D89700CDEECB /* Debug */,
+				B0CC89FA1C82D89700CDEECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0CE53641C8B2CFC0066AF42 /* XT_Help.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = XT_Help.xcdatamodeld;
+			path = ../XTHelp/XT_Help.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0CC89BA1C82D89000CDEECB /* Project object */;
+}
