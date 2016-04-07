@@ -31,7 +31,6 @@ static NSString * const reuseIdentifier = @"collec";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     self.title = @"糖友圈";
     
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],UITextAttributeTextColor,nil]];
